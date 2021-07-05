@@ -1,8 +1,8 @@
 import { async, ComponentFixture, TestBed, tick } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { AgGridModule } from 'ag-grid-angular';
-import { IClient } from 'src/app/Entities/client';
-import { ClientService } from 'src/app/services/client.service';
+import { IClient } from '../../../../../app/Entities/client';
+import { ClientService } from '../../../../../app/services/client.service';
 
 import { IClientFormModel } from '../client-entry/componentModel/clientFormModel';
 import { ClientComponent } from './client.component';
