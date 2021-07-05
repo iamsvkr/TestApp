@@ -5,7 +5,7 @@ import { AgGridModule } from 'ag-grid-angular';
 import { ClientsRoutingModule } from './clients-routing.module';
 import { ClientComponent } from './components/client/client.component';
 import { ClientEntryComponent } from './components/client-entry/client-entry.component';
-import { ClientService } from 'src/app/services/client.service';
+import { ClientService } from '../../../app/services/client.service';
 
 
 @NgModule({
