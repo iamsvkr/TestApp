@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { IClient } from 'src/app/Entities/client';
+import { IClient } from '../../../../../app/Entities/client';
 import { IClientFormModel } from '../client-entry/componentModel/clientFormModel';
 import { ClientService } from '../../../../services/client.service'
-import { SlicePipe } from '@angular/common';
 @Component({
   selector: 'app-client',
   templateUrl: './client.component.html',
