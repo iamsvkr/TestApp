@@ -1,6 +1,6 @@
 import { Component, ElementRef, OnInit, TemplateRef, ViewChild, ViewChildren } from '@angular/core';
 import  { NgbModal} from '@ng-bootstrap/ng-bootstrap';
-import { IAccount } from 'src/app/Entities/account';
+import { IAccount } from '../../../../../app/Entities/account';
 import { AccountService } from '../../../../services/account.service';
 import { ViewCellRenderComponent } from '../view-cell-render/view-cell-render.component';
 @Component({
